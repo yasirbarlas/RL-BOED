@@ -1,6 +1,6 @@
 # Bayesian Experimental Design Through Reinforcement Learning
 
-Note: This repository and its contents support the coursework of the INM363 module at City, University of London.
+Notes: This repository and its contents support a master's thesis under the INM363 module at City, University of London. As of March 2025, a paper based on this master's thesis, and as a result this repository, was presented at the [AAAI 2025 '8th Workshop on Generalization in Planning'](https://aair-lab.github.io/genplan25/). The paper is titled [Performance Comparisons of Reinforcement Learning Algorithms for Sequential Experimental Design](https://arxiv.org/abs/2503.05905).
 
 The code presented here is an updated version of the work found in the [RL-BOED](https://github.com/csiro-mlai/RL-BOED) repository and corresponding paper [Optimizing Sequential Experimental Design with Deep Reinforcement Learning](https://arxiv.org/abs/2202.00821). This version works with the latest versions of PyTorch, NumPy, and Gymnasium (note the difference from Gym). Since [Akro](https://github.com/rlworkgroup/akro) and [Garage](https://github.com/rlworkgroup/garage/) do not support the latest versions of these libraries (at least as of June 2024), they are imported and edited in this repository as separate folders. Note that we use the [2021.03 release](https://github.com/rlworkgroup/garage/tree/release-2021.03) of Garage since it was used in [RL-BOED](https://github.com/csiro-mlai/RL-BOED).
 
